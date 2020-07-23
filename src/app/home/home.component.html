@@ -1,0 +1,21 @@
+
+<form #form="ngForm" (ngSubmit)="onSubmit(form)">
+  <div>
+    <label>Customer Id</label>
+    <input name="custId" ngModel #custId="ngModel">
+  </div>
+
+  <div>
+    <label>Last meter</label>
+    <input name="last" ngModel #last="ngModel">
+  </div>
+
+  <div>
+    <label>New Meter</label>
+    <input name="new" ngModel #new="ngModel">
+  </div>
+
+  <div>
+    <button class="btn">Save</button>
+  </div>
+</form>
