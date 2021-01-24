@@ -1,10 +1,14 @@
-.toolbar{
-  height: 50px;
-  width: 100%;
-  background-color: black;
-  color: white;
+html{
+  margin: 0;
+  padding: 0;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-div{
-  text-align: center;
+body{
+  margin: 0;
+  padding: 0;
 }

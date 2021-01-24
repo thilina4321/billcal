@@ -1,0 +1,46 @@
+.self{
+  margin-top: -30vh;
+  background-color: grey;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.title{
+  color: white;
+  position: absolute;
+  top: 610px;
+  transition: all 0.5s;
+}
+
+.title:hover{
+  transform: scale(1.1);
+  color: green;
+}
+.profile{
+  position: absolute;
+  top: 700px;
+  height: 200px;
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  box-shadow: 3px 3px 5px black;
+  transition: all 0.5s;
+
+}
+
+.profile:hover{
+  transform: scale(1.06);
+}
+
+.profile img{
+  height: 100%;
+}
+
+
+.self__data{
+  margin-left: 20px;
+  color: white;
+}

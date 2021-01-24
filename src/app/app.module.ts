@@ -4,14 +4,14 @@ import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { BillComponent } from './bill/bill.component';
-import { HomeComponent } from './home/home.component';
+import { HeaderComponent } from './header/header.component';
+import { MySelfComponent } from './my-self/my-self.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    BillComponent,
-    HomeComponent
+    HeaderComponent,
+    MySelfComponent
   ],
   imports: [
     BrowserModule,
