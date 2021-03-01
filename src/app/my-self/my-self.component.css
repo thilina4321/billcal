@@ -1,18 +1,17 @@
 .self{
-  margin-top: -30vh;
   background-color: grey;
-  height: 1000px;
   display: flex;
+  margin-top: -25vh;
+  padding-top: 25vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 30px;
 
 }
 .title{
   color: white;
-  position: absolute;
-  top: 610px;
-  transition: all 0.5s;
+
 }
 
 .title:hover{
@@ -20,14 +19,15 @@
   color: green;
 }
 .profile{
-  position: absolute;
-  top: 700px;
-  height: 200px;
+
   display: flex;
+  flex-wrap: wrap;
   width: 90%;
   margin: 0 auto;
   box-shadow: 3px 3px 5px black;
   transition: all 0.5s;
+  margin-bottom: 30px;
+  max-width: 600px;
 
 }
 
@@ -36,11 +36,47 @@
 }
 
 .profile img{
-  height: 100%;
+  min-width: 250px;
+  height: 300px;
+  flex: 1;
 }
 
 
 .self__data{
   margin-left: 20px;
   color: white;
+  flex: 1;
 }
+
+
+.btn{
+  padding: 10px 30px;
+  border-radius: 200px;
+}
+
+.btn:focus{
+  outline: none;
+}
+
+.btn1{
+  margin-right: 20px;
+  color: white;
+  background-color: black;
+}
+
+.btn2{
+  margin-right: 20px;
+  color: black;
+  background-color: white;
+}
+
+.btn1:hover{
+  color: black;
+  background-color: white;
+}
+
+.btn2:hover{
+  color: white;
+  background-color: black;
+}
+

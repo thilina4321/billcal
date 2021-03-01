@@ -1,0 +1,30 @@
+.technologies{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  height: 100%;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+
+.tech{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.tech img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px 2px white;
+  margin: 5px;
+}
+
+.tech img:hover{
+  transform: scale(1.05);
+}

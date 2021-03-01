@@ -1,7 +1,6 @@
 *{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body{
@@ -11,6 +10,7 @@ body{
 
 
 .background{
+  width: 100%;
   position: relative;
   color: white;
   background: url('../../assets//background.jpg');

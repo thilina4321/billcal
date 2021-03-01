@@ -1,0 +1,17 @@
+<div class="projects">
+  <h1>Applications</h1>
+
+  <h2 style="text-align: center;">
+    Applications I build while learning.....
+  </h2>
+
+  <div class="projectList">
+    <div class="project_card" *ngFor="let pro of projects">
+      <h1> {{pro.name}} </h1>
+      <img src={{pro.mainImage}}>
+      <h2> {{pro.description}} </h2>
+      <button>View</button>
+    </div>
+  </div>
+
+</div>

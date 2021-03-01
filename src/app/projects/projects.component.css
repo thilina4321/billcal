@@ -1,0 +1,62 @@
+.projects{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  color: white;
+}
+
+/* h1,h2,h3,p{
+  margin: 0;
+
+} */
+
+
+.projectList{
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 10px auto;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.project_card{
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 8px black;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  padding: 20px;
+
+}
+
+.project_card img{
+  height: 200px;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.project_card:hover{
+
+  transform: scale(1.01);
+}
+
+button{
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: orangered;
+  width: 80%;
+  color: white;
+  margin: 10px 0;
+}
+
+button:focus{
+  outline: none;
+}
