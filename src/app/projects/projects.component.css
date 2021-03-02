@@ -24,8 +24,8 @@
 }
 
 .project_card{
-  flex: 1;
   min-width: 300px;
+  max-width: 500px;
   display: flex;
   flex-direction: column;
   justify-content: center;

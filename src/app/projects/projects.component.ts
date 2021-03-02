@@ -18,7 +18,6 @@ export class ProjectsComponent implements OnInit {
 
   ngOnInit(): void {
     this.projectService.projects$.subscribe(projects=>{
-      console.log(projects);
 
       this.projects = projects
     })

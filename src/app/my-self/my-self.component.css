@@ -80,3 +80,16 @@
   background-color: black;
 }
 
+p{
+  margin: 0;
+}
+
+.linkedIn{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  box-shadow: 0 2px 8px 2px white;
+  margin: 20px 0;
+  padding: 20px;
+}
