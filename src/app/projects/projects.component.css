@@ -25,14 +25,13 @@
 
 .project_card{
   min-width: 300px;
-  max-width: 500px;
+  max-width: 450px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   box-shadow: 0 2px 8px black;
   margin-bottom: 10px;
-  margin-left: 10px;
   padding: 20px;
 
 }
